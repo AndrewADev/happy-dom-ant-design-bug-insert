@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import InfoBox from './components/InfoBox.vue'
 </script>
 
 <template>
@@ -9,11 +9,12 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <InfoBox />
   </main>
 </template>
 
